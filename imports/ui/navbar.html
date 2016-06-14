@@ -1,0 +1,11 @@
+<template name="navbar">
+    <ul class="nav_bar">
+        <li class="nav_logo"><a href="/">Logo</a></li>
+        {{#if currentUser}}
+	        <li class="nav_right logout"><a href="" id="nav-logout">Sair</a></li>   
+	        <li class="nav_right signedName">{{currentUser.profile.name}}</li>         
+        {{else}}
+        	<li class="nav_right sign"><a href="/registro">Login/Registro</a></li>
+        {{/if}}
+    </ul>
+</template>

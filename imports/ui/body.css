@@ -1,0 +1,140 @@
+/* INICIO STYLES.CSS */
+
+
+.titulo {
+  margin-top: 180px;
+  margin-bottom: 0;
+  color: #a80a4b;
+}
+
+.menor {
+  font-size: 15px;
+}
+
+/* header */
+.header {
+  height: 80%;
+}
+
+.depara {
+  display: inline-block;
+}
+
+.header-bar {
+  width: 100%;
+  text-align: center;
+  margin: 5px auto 30px;
+}
+
+.header-col {
+  padding: 0 10px;
+}
+
+.header-landing {
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.header-landing h1 {
+  font-size: 3.2em;
+  height: 1em;
+  overflow: hidden;
+  line-height: 1;
+  color: #7a8a92;
+  margin-bottom: 10px;
+}
+.header-landing h1 b {
+  font-size: 1em;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #2d3438;
+  padding-right: 10px;
+}
+.header-landing h1 > em {
+  font-size: 1em;
+  font-weight: 700;
+  font-style: normal;
+  animation: 6s change linear infinite;
+  -webkit-animation: 6s change linear infinite;
+  -moz-animation: 6s change linear infinite;
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  left: 5px;
+  padding: 0 10px;
+}
+.header-landing h1 > span {
+  display: inline-block;
+  float: left;
+  overflow: visible;
+}
+.header-landing h1 > em span {
+  display: block;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-weight: 900;
+  position: relative;
+  padding: 2px 0;
+  color: #a80a4b;
+}
+@keyframes change {
+  0%, 12%, 100%   {transform:translateY(0);}
+  17%,29%  {transform:translateY(-25%);}
+  34%,46%  {transform:translateY(-50%);}
+  51%,63%  {transform:translateY(-75%);}
+  68%,80%  {transform:translateY(-50%);}
+  85%,97%  {transform:translateY(-25%);}
+}
+.header-landing .frase{
+  font-size: 2.3em;
+  color: #555;
+  margin-bottom: 1em;
+}
+.header-landing .btn-start, .btn-next {
+  border-radius: 6px;
+  padding: 15px 40px;
+  background-color: #ce0c5c;
+  outline: none;
+  border: none;
+  font-size: 2.4em;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Handlee", Cursive;
+}
+
+.btn-next {
+  width: 100%;
+  transition: background .2s linear;
+}
+.btn-next:hover {background-color: #a80a4b;}
+
+/* logo */
+.header .logo {
+  position: absolute;
+  right: 15%;
+  top: 8%;
+  width: 320px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header .logo {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
+}
+
+.header-bar .logo {
+  width: 200px;
+  margin: 0 auto -150px;
+  position: relative;
+  z-index: 2;
+}
+
+#logo-landing {width: 100%;}
+.tpl-achamos .header-bar .logo {width: 130px;}
+
+/* FIM STYLES.CSS */

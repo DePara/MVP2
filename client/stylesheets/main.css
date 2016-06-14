@@ -1,0 +1,142 @@
+/* CSS declarations go here */
+
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+
+* { font-family: "Josefin Sans", Cursive; }
+
+h1 { font-family: "Handlee", Cursive; }
+
+body {
+  font-size: 10px;
+  background: #e9f0f4 linear-gradient(160deg, #d0dbe1 40%, #a6b9c4 80%); 
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/*
+h4 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}*/
+
+.red { background-color: red; }
+
+
+/* ANTIGO MAIN.CSS */
+
+.svg-filters {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+}
+
+.button--1,
+.button--1 .button__bg {
+    -webkit-font-smoothing: antialiased;
+    background-color: #ce0c5c;
+    -webkit-transition: background-color 0.1s ease-out;
+    -moz-transition: background-color 0.1s ease-out;
+    transition: background-color 0.1s ease-out;
+}
+
+.button--1:hover,
+.button--1 .button__bg:hover {
+    background-color: #ce0c5c;
+    color: #fff;
+}
+
+.button--1:focus,
+.button--1 .button__bg:focus {
+    outline: none;
+    color: #fff;
+}
+
+.safari .button,
+.safari .button__bg {
+    -webkit-filter: none !important;
+    filter: none !important;
+}
+
+.button--1 {
+    position: relative;
+    background: none;
+    z-index: 0;
+}
+
+.button--1:hover { background: none; }
+
+.button--1:hover .circle { background: #ce0c5c; }
+
+.button--1:hover .button__bg { background: #ce0c5c; }
+
+.button--1 .button__container {
+    position: absolute;
+    display: block;
+    width: 200%;
+    height: 400%;
+    top: -150%;
+    left: -50%;
+    -webkit-filter: url("#filter-goo-1");
+    filter: url("../#filter-goo-1");
+    pointer-events: none;
+    z-index: -1;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+.button--1 .button__bg,
+.button--1 .circle {
+    -webkit-animation: hue-rotate 10s linear infinite;
+    -moz-animation: hue-rotate 10s linear infinite;
+    animation: hue-rotate 10s linear infinite;
+}
+
+.button--1 .button__bg {
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    top: 50%;
+    left: 25%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.button--1 .circle {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background: #ce0c5c;
+    -webkit-transition: background-color 0.1s ease-out;
+    -moz-transition: background-color 0.1s ease-out;
+    transition: background-color 0.1s ease-out;
+}
+
+.button--1 .circle.top-left {
+    top: 40%;
+    left: 27%;
+}
+
+.button--1 .circle.bottom-right {
+    bottom: 40%;
+    right: 27%;
+}
+
+
+/* FIM MAIN.CSS */

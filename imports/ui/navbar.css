@@ -1,0 +1,36 @@
+.nav_bar {
+	background-color: rgba(255,255,255, 0);
+	list-style: none;
+	padding-top: 15px;
+	padding-bottom: 35px;
+	margin: 0;
+	border-bottom: 1px solid white;
+}
+
+.nav_bar > li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	color: #ce0c5c;
+}
+
+.nav_bar > li > a {
+	text-decoration: none;
+	color: #ce0c5c;
+}
+
+.nav_bar > li:hover, .nav_bar > li > a:hover {
+	color: #610429;
+}
+
+.nav_right {
+	float: right;
+	padding: 0 25px;
+}
+
+.nav_logo {
+	position: absolute;
+	text-align: center;
+	padding: 0 50px;
+}
