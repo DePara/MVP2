@@ -34,6 +34,9 @@
                         </label>
                         <input type="password" required autocomplete="off" name="regPass" />
                     </div>
+                    <div class="field-wrap">
+                        <span id="signup-error"> E-mail já está cadastrado </span>
+                    </div>
                     <button type="submit" class="button button-block">Cadastrar</button>
                 </form>
             </div>
@@ -51,6 +54,9 @@
                             Senha<span class="req">*</span>
                         </label>
                         <input type="password" required autocomplete="off" name="logPass" />
+                    </div>
+                    <div class="field-wrap">
+                        <span id="signin-error"> E-mail ou senha incorretos </span>
                     </div>
                     <p class="forgot"><a href="#">Esqueceu a Senha?</a></p>
                     <button class="button button-block" >Login</button>

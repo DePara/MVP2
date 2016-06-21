@@ -1,6 +1,7 @@
 .ft{
   width: 100%;
   padding: 80px 0px 50px;
+  padding-bottom: 10px;
   background-color: white;
   overflow: hidden;
 }
@@ -12,7 +13,7 @@
 }
 .ft li a {
   color:inherit;
-  font-size: 17px;
+  font-size: 1.3em;
   margin: 0 5px;
 }
 .ft li a:hover {
@@ -21,9 +22,9 @@
 .ft li strong {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 .social-icon {
-  max-width: 25px;  
-  max-height: 25px;
+  max-width: 1.8em;  
+  max-height: 1.8em;
 }

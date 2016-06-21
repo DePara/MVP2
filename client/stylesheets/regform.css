@@ -178,3 +178,11 @@
   margin-top: -20px;
   text-align: right;
 }
+
+#signup-error, #signin-error {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: red;
+  display: none;
+  visibility: hidden;
+}

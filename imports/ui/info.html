@@ -1,23 +1,16 @@
 <template name="info">
-
     <div class="header-bar">
         <div class="logo">
             <img id="logo" src="img/logo.png">
         </div>
     </div>
-
     <div class="box-bg">
         <div class="box-content">
-            <h4 class="q-title">Suas infos, {{currentUser.profile.name}}</h4>
+            <h3 class="q-title">Informações do presenteado</h3>
             <hr>
             <div class="form-group">
-                <h4>Idade</h4>
+                <p>Idade</p>
                 <input type="number" class="form-control" id="idade">
-            </div>
-            <div class="form-group">
-                <h3 class="lbl-preco">Faixa de Preço</h3>
-                <b class="slide-label">R$ 20</b>&nbsp;&nbsp;&nbsp;
-                <input id="preco" type="text" class="span2" value="" data-slider-min="0" data-slider-max="500" data-slider-step="10" data-slider-value="[20,500]" /> &nbsp;&nbsp;<b class="slide-label slide-label-r">R$ 500</b>
             </div>
             <div class="form-group">
                 <h4>Sexo</h4>
@@ -28,7 +21,12 @@
                         <input id="fem" type="radio" name="sexo" value="F">Feminino</label>
                 </form>
             </div>
-            <button id="btn-next-1" type="button" class="btn btn-next">Continuar</button>
+            <div class="form-group">
+                <h3 class="lbl-preco">Preço máximo</h3>
+                <div class="slide-label slide-label-l">R$ 50</div>
+                <input id="preco" type="text" class="span2" value="500" data-slider-min="50" data-slider-max="500" data-slider-step="10" data-slider-value="500" /> <div class="slide-label slide-label-r">R$ 500</div>
+            </div>
+            <button id="btn-next-1" type="button" class="btn-next">Continuar</button>
         </div>
     </div>
 </template>

@@ -115,9 +115,16 @@ if (Meteor.isClient) {
                     surname: surnameVar
                 }
             });            
-            if (Meteor.user()){
-                FlowRouter.go('/');
-            }
+            setTimeout(function() {
+                if (Meteor.user()){
+                    FlowRouter.go('/');
+                } else {
+                    $("#signup-error").css({
+                        "display": "block",
+                        "visibility": "visible"
+                    });
+                }
+            }, 300);
         },        
         'submit #frm-login': function(event) {
             event.preventDefault();
@@ -132,8 +139,13 @@ if (Meteor.isClient) {
             setTimeout(function() {
                 if (Meteor.user()){
                     FlowRouter.go('/');
+                } else {
+                    $("#signin-error").css({
+                        "display": "block",
+                        "visibility": "visible"
+                    });
                 }
-            }, 500);
+            }, 300);
 
             console.log(Meteor.user());
         }

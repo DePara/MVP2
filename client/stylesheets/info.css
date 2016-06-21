@@ -1,21 +1,23 @@
 .header-bar .logo {
-  width: 200px;
-  margin: 0 auto -150px;
-  position: relative;
-  z-index: 2;
+    width: 130px;
+    margin: 0 auto -150px;
+    position: relative;
+    z-index: 2;
 }
 
-#logo {width: 100%;}
-
+#logo {
+    width: 100%;
+}
 
 .box-bg {
-  max-width: 420px;
-  margin: 100px auto 50px;
-  padding: 50px;
-  background-color: white;
-  border: 1px solid #e7e7e7;
-  border-radius: 4px;
+    max-width: 420px;
+    margin: 100px auto 50px;
+    padding: 50px 5%;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
 }
+
 /*
 .box-content {
   position: relative;
@@ -24,85 +26,102 @@
 }*/
 
 .form-group {
-  position: relative;
-  margin-bottom: 30px;
+    position: relative;
+    margin-bottom: 30px;
 }
 
 .form-control {
-  padding: 10px 15px;
-  height: auto;
-  font-size: 2em;
-  background-color: #e9f0f4;
-  border: none;
+    padding: 10px 15px;
+    height: auto;
+    font-size: 2em;
+    background-color: #e9f0f4;
+    border: none;
 }
 
-.form-control select{
-  padding: 10px 15px;
-  height: auto;
-  font-size: 1.8em;
-  height: 40px;
-  border: 1px solid #e9f0f4;
-  background: #fff;
+.form-control select {
+    padding: 10px 15px;
+    height: auto;
+    font-size: 1.8em;
+    height: 40px;
+    border: 1px solid #e9f0f4;
+    background: #fff;
 }
-.form-control:focus, .form-control:hover {box-shadow: none}
+
+.form-control:focus,
+.form-control:hover {
+    box-shadow: none
+}
 
 .radio-inline {
-  font-size: 2em;
+    font-size: 1.6em;
 }
 
 .btn-next {
-  border-radius: 6px;
-  padding: 15px 40px;
-  background-color: #ce0c5c;
-  outline: none;
-  border: none;
-  font-size: 3em;
-  font-weight: 1000;
-  color: #fff;
-  font-family: "Handlee", Cursive;
+    border-radius: 6px;
+    padding: 15px 40px;
+    background-color: #ce0c5c;
+    outline: none;
+    border: none;
+    font-size: 2.5em;
+    font-weight: 1000;
+    color: #fff;
+    font-family: "Handlee", Cursive;
 }
 
 .btn-next {
-  width: 100%;
-  transition: background .2s linear;
+    width: 100%;
+    transition: background .2s linear;
 }
-.btn-next:hover {background-color: #a80a4b;}
 
- .slide-label {
-  font-size: 1.6em;
- }
+.btn-next:hover {
+    background-color: #a80a4b;
+}
 
- .slide-label-l {
-  text-align: left;
-  margin-right: 15px;
- }
- .slide-label-r {
-  text-align-last: left;
-  position: absolute;
+.slide-label {
+    font-size: 1.2em;
+    display: inline-block;
+    font-weight: bold;
+}
 
-  right: -10px;
- }
-.slider-handle {background-image: linear-gradient(to bottom, #ce0c5c 0, #a80a4b 100%) !important;}
+.slide-label-l {
+    margin-right: 10px;
+}
+
+.slide-label-r {
+    margin-left: 10px;
+}
+
+.slider-handle { background-image: linear-gradient(to bottom, #ce0c5c 0, #a80a4b 100%) !important; }
 
 .q-title {
-  font-size: 2.2em;
-  text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    text-align: center;
 }
 
 .box-bg h4 {
     font-weight: 800;
-    font-size: 1.7em;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.box-bg p {
+    font-weight: 800;
+    font-size: 1.4em;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 .lbl-preco {
-  font-weight: 800;
-  font-size: 1.7em;
-  text-transform: uppercase;
-  margin-bottom: 35px;
+    font-weight: 800;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    margin-bottom: 35px;
 }
 
 #preco {
-  font-size: 2em;
+    font-size: 1.4em;
 }
