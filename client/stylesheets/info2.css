@@ -1,0 +1,29 @@
+.box-bg-perguntas {
+ 	width: 450px;
+}
+
+.box-bg-perguntas {
+	font-size: 1em;
+}
+
+.box-bg-perguntas box-p {
+	display: flex;
+	vertical-align: middle;
+}
+
+.box-bg-perguntas h3 {
+	display: inline-block;
+}
+
+.last-item {
+	margin-bottom: 15px;
+}
+
+.flex-item {
+	width: 20%;
+	flex: 1;
+}
+
+.flex-title {
+	flex: 2;
+}

@@ -1,4 +1,4 @@
-<template name="info">
+<template name="info1">
     <div class="header-bar">
         <div class="logo">
             <img id="logo" src="img/logo.png">
@@ -6,15 +6,16 @@
     </div>
     <div class="box-bg">
         <div class="box-content">
-            <h3 class="q-title">Informações do presenteado</h3>
+            <h2 class="q-title">Informações</h2>
+            <h5 class="q-subtitle">Informações gerais sobre o presenteado</h5>
             <hr>
             <div class="form-group">
                 <p>Idade</p>
-                <input type="number" class="form-control" id="idade">
+                <input type="number" class="form-control" id="inp-idade">
             </div>
             <div class="form-group">
                 <h4>Sexo</h4>
-                <form id="radioForm">
+                <form id="rd-genero">
                     <label class="radio-inline">
                         <input id="masc" type="radio" name="sexo" value="M">Masculino</label>
                     <label class="radio-inline">
@@ -24,7 +25,7 @@
             <div class="form-group">
                 <h3 class="lbl-preco">Preço máximo</h3>
                 <div class="slide-label slide-label-l">R$ 50</div>
-                <input id="preco" type="text" class="span2" value="500" data-slider-min="50" data-slider-max="500" data-slider-step="10" data-slider-value="500" /> <div class="slide-label slide-label-r">R$ 500</div>
+                <input id="sl-preco" type="text" class="span2" value="500" data-slider-min="50" data-slider-max="500" data-slider-step="10" data-slider-value="500" /> <div class="slide-label slide-label-r">R$ 500</div>
             </div>
             <button id="btn-next-1" type="button" class="btn-next">Continuar</button>
         </div>
